@@ -217,11 +217,19 @@ input[type=submit] {
 }
 
 @media screen and (max-width: 980px) {
-
+  nav {
+    padding-right: 30px;
+  }
 }
 
 @media screen and (max-width: 768px) {
-
+  #masthead {
+    width: 100%;
+  }
+  nav {
+    float: right;
+    padding-right: 30px;
+  }
 }
 
 @media screen and (max-width: 640px) {
